@@ -2,6 +2,13 @@
 
 Continual learning benchmark for multi-channel audio anti-spoofing on the **ReMASC** dataset. Evaluates four methods on domain-incremental learning across four acoustic environments.
 
+## Authors
+Michael Neri, Riccardo Casciotti
+
+_Faculty of Information Technology and Communication Sciences, Tampere University, Tampere, Finland_
+
+
+
 ## Setup
 
 ```bash
@@ -82,3 +89,31 @@ Computed by `cl_metrics.py` from the 4×4 performance matrix `perf[k, j]` = EER 
 | `make_cl_tables.py` | LaTeX table generator |
 | `plot_ordering_analysis.py` | Ordering analysis figure |
 | `check_env3.py` | Diagnostic script for data sanity checks |
+
+--------
+
+If you use any part of this code, please cite the following works regarding the spatial deepfake detector and the domain-incremental learning
+
+```
+@ARTICLE{Neri_spatial_deepfake_2025,
+  author={Neri, M. and Virtanen, T.},
+  journal={IEEE Open Journal of Signal Processing}, 
+  title={Multi-Channel Replay Speech Detection Using an Adaptive Learnable Beamformer}, 
+  year={2025},
+  volume={6},
+  number={},
+  pages={530-535},
+  doi={10.1109/OJSP.2025.3568758}}
+
+@INPROCEEDINGS{Neri_CL_2026,
+  title={Domain-Incremental Learning for Multi-channel Replay Speech Detection},
+  booktitle={}, 
+  author={Michael Neri and Riccardo Casciotti},
+  year={2026},
+  volume={},
+  number={},
+  pages={},
+  doi={}}
+
+```
+
