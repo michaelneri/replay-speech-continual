@@ -1,4 +1,4 @@
-# CL Replay Speech Detection
+# Domain-incremental Multi-Channel Replay Speech Detection
 
 Continual learning benchmark for multi-channel audio anti-spoofing on the **ReMASC** dataset. Evaluates four methods on domain-incremental learning across four acoustic environments.
 
