@@ -46,7 +46,7 @@ Both scripts support **resume**: if a run is interrupted, re-running picks up fr
 
 ## Protocol
 
-- **24 orderings** (4!) × **5 runs** = 120 CL experiments per algorithm
+- **24 orderings** (4!) × **5 runs** = 120 CL experiments per algorithm. It takes approximately 1 week on a NVIDIA GeFORCE RTX 4070.
 - **Prefix caching**: models trained on shared prefixes are reused across orderings
 - **EER cache**: test evaluations are cached in `eer_cache.json` to avoid re-evaluation
 
@@ -88,7 +88,6 @@ Computed by `cl_metrics.py` from the 4×4 performance matrix `perf[k, j]` = EER 
 | `utils.py` | EER metric |
 | `make_cl_tables.py` | LaTeX table generator |
 | `plot_ordering_analysis.py` | Ordering analysis figure |
-| `check_env3.py` | Diagnostic script for data sanity checks |
 
 --------
 
