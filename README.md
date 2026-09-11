@@ -1,20 +1,10 @@
-# Domain-incremental Multi-Channel Replay Speech Detection
+# Domain-incremental Learning for Multi-Channel Replay Speech Detection
 
-Continual learning benchmark for multi-channel audio anti-spoofing on the **ReMASC** dataset. Evaluates four methods on domain-incremental learning across four acoustic environments.
+Domain-incremental learning benchmark for multi-channel audio anti-spoofing on the **ReMASC** dataset. Evaluates four methods on domain-incremental learning across four acoustic environments.
 
 ## Authors
-Michael Neri, Riccardo Casciotti
-
+Michael Neri
 _Faculty of Information Technology and Communication Sciences, Tampere University, Tampere, Finland_
-
-
-
-## Setup
-
-```bash
-conda env create -f environment.yml
-conda activate deeplearning
-```
 
 ## Dataset
 
@@ -68,8 +58,8 @@ Computed by `cl_metrics.py` from the 4×4 performance matrix `perf[k, j]` = EER 
 
 | Metric | Meaning | Direction |
 |--------|---------|-----------|
-| AA | Average EER at final step | lower = better |
-| AIA | Average incremental EER across all steps | lower = better |
+| AE | Average EER at final step | lower = better |
+| AIE | Average incremental EER across all steps | lower = better |
 | FM | Forgetting measure | lower = better |
 | BWT | Backward transfer | higher = better |
 | IM | Intransigence vs. joint training | lower = better |
@@ -104,10 +94,10 @@ If you use any part of this code, please cite the following works regarding the 
   pages={530-535},
   doi={10.1109/OJSP.2025.3568758}}
 
-@INPROCEEDINGS{Neri_CL_2026,
+@INPROCEEDINGS{Neri_DIL_2026,
   title={Domain-Incremental Learning for Multi-channel Replay Speech Detection},
   booktitle={}, 
-  author={Michael Neri and Riccardo Casciotti},
+  author={M. Neri},
   year={2026},
   volume={},
   number={},
