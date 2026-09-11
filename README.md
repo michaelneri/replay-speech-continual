@@ -1,10 +1,6 @@
 # Domain-incremental Learning for Multi-Channel Replay Speech Detection
 
-Domain-incremental learning benchmark for multi-channel audio anti-spoofing on the **ReMASC** dataset. Evaluates four methods on domain-incremental learning across four acoustic environments.
-
-## Authors
-Michael Neri
-_Faculty of Information Technology and Communication Sciences, Tampere University, Tampere, Finland_
+Domain-incremental learning benchmark for multi-channel audio anti-spoofing on the **ReMASC** dataset. Evaluates four methods on domain-incremental learning across four acoustic environments. In addition, an architecture-based domain-incremental learning is proposed (TSB - Task Specific Beamformer).
 
 ## Dataset
 
@@ -80,6 +76,11 @@ Computed by `cl_metrics.py` from the 4×4 performance matrix `perf[k, j]` = EER 
 | `plot_ordering_analysis.py` | Ordering analysis figure |
 
 --------
+
+## Author
+Michael Neri
+
+_Faculty of Information Technology and Communication Sciences, Tampere University, Tampere, Finland_
 
 If you use any part of this code, please cite the following works regarding the spatial deepfake detector and the domain-incremental learning
 
